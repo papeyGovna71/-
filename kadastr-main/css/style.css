@@ -1,0 +1,378 @@
+body {
+	padding: 0px;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	color: #343434;
+	font-size: 30px;
+	width: 1920px;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 72px;
+	color: #000;
+	text-align: center;
+	margin: 46px 0px 0px 0px;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 48px;
+	color: #000;
+	text-align: center;
+	margin: -4px 0px 0px 0px;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 72px;
+	text-align: center;
+	margin: 25px 0px 0px 0px;
+}
+
+h4 {
+	font-weight: 500;
+	font-size: 72px;
+	text-align: center;
+	margin: 70px 0px 45px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #343434;
+}
+
+					/*Меню*/
+
+.sub-menu {
+	display: flex; 
+}
+
+.sub-sub-menu {
+	display: flex; 
+}
+
+
+.logo {
+	margin: 15px 0px 0px 258px;
+}
+
+.cont {
+	margin: 24px 0px 0px 128px;
+}
+
+.cont1 {
+	margin: 24px 0px 0px 43px;
+}
+
+.tel {
+	margin: 24px 0px 0px 84px;
+}
+
+.tel1 {
+	font-weight: 600;
+}
+
+.sub-sub-menu a:after {
+display: block; 
+content: ""; 
+height: 4px; 
+width: 0%; 
+background-color: #000; 
+transition: width 0.35s ease-in-out;
+margin-top: 6px;
+}
+
+.sub-sub-menu a:hover:after,
+.sub-sub-menu a:focus:after {
+width: 100%;
+}
+
+.line-menu {
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+	margin: -8px 0px 0px 0px;
+}
+
+.line-glav {
+	width: 740px;
+	height: 3px;
+	background-color: #000000;
+	margin: 62px 0px 0px 0px;
+}
+
+.futaj {
+	margin: 15px 0px 0px 0px;
+	box-shadow: 0 0 36px #CBCBCB;
+}
+
+.ot-logo {
+	display: flex;
+	align-items: center;
+	margin: 62px 0px 0px 0px;
+}
+
+.ot-logo-line1 {
+	width: 470px;
+	height: 3px;
+	background-color: #000;
+	margin: 0px 52px 0px 403px;
+}
+
+.ot-logo-line2 {
+	width: 470px;
+	height: 3px;
+	background-color: #000;
+	margin: 0px 0px 0px 52px;
+}
+
+.company {
+	font-weight: 300;
+	font-size: 36px;
+	text-align: center;
+	margin: 25px 0px 0px 0px;
+}
+
+.line-company {
+	width: 1114px;
+	height: 3px;
+	background-color: #000;
+	margin: 70px 0px 0px 403px;
+}
+
+					/*Наши услуги*/
+
+.services {
+	margin: 0px 0px 0px 240px;
+}
+
+.menu_link{
+	display: flex;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 36px;
+}
+
+.txt1 {
+	display: flex;
+	font-family: 'Montserrat', sans-serif;	
+	font-weight: 300;
+	font-size: 36px;
+	color: #343434;
+}
+
+.img1 {
+	width: 25px;
+	height: 25px;
+	margin: 10px 5px 0px 0px;
+	transition: 0.35s;
+}
+
+.line-services1 {
+	width: 600px;
+	height: 1px;
+	background-color: #343434;
+	margin: 25px 0px 0px 7px;
+}
+
+.line-services2 {
+	width: 702px;
+	height: 1px;
+	background-color: #343434;
+	margin: 25px 0px 0px 7px;
+}
+
+.line-services3 {
+	width: 491px;
+	height: 1px;
+	background-color: #343434;
+	margin: 25px 0px 0px 7px;
+}
+
+.line-services4 {
+	width: 787px;
+	height: 1px;
+	background-color: #343434;
+	margin: 25px 0px 0px 7px;
+}
+
+.line-services5 {
+	width: 853px;
+	height: 1px;
+	background-color: #343434;
+	margin: 25px 0px 0px 7px;
+}
+
+.line-services6 {
+	width: 905px;
+	height: 1px;
+	background-color: #343434;
+	margin: 25px 0px 0px 7px;
+}
+
+.content { 
+	padding: 0 18px; 
+	max-height: 0; 
+	overflow: hidden; 
+	transition: max-height 0.2s ease-out; 
+	background-color: white;
+	font-weight: 300;
+	font-size: 36px;
+}
+
+.txt2 {
+	font-weight: 300;
+	font-size: 36px;
+}
+
+.line-services {
+	width: 1114px;
+	height: 3px;
+	background-color: #000;
+	margin: 70px 0px 0px 403px;
+}
+
+					/*В каких случаях обращаться*/
+
+					/* Resposive start here */
+
+
+@media screen and (max-width: 1920px) and (orientation: landscape) {
+	
+}
+
+@media screen and (max-width: 1400px) and (orientation: landscape) {
+	a {
+		font-size: 28px;
+	}
+	.menu {
+		margin-left: -195px;
+	}
+	.cont {
+		margin-left: 42px;
+	}
+	.cont1 {
+		margin-left: 24px;
+	}
+	.tel {
+		margin-left: 42px;
+	}
+	.line-menu {
+		width: 1510px;
+	}
+	.zagolov {
+		margin-left: -650px;
+	}
+	.line-glav {
+		margin-left: -650px;
+	}
+	.futaj {
+		width: 1280px;
+	}
+	.ot-logo {
+		margin-left: -170px;
+	}
+	.ot-logo-line1 {
+		width: 320px;
+		height: 2px;
+	}
+	.ot-logo-line2 {
+		width: 320px;
+		height: 2px;
+	}
+	.company-txt {
+		margin-left: -630px;
+	}
+	.company-zag {
+		font-size: 52px;
+	}
+	.company {
+		font-size: 28px;
+	}
+	.line-company {
+		margin-left: 238px;
+		width: 800px;
+		height: 2px;
+	}
+	.services-zag {
+		margin-left: -630px;
+		font-size: 52px;
+	}
+	.services {
+		margin-left: 110px;
+	}
+	.txt1 {
+		font-size: 28px;
+	}
+	.img1 {
+		margin-top: 5px;
+	}
+	.txt2 {
+		font-size: 28px;
+	}
+	.line-services1 {
+		width: 400px;
+		height: 1px;
+		background-color: #343434;
+		margin: 19px 0px 0px 7px;
+	}
+	.line-services2 {
+		width: 478px;
+		height: 1px;
+		background-color: #343434;
+		margin: 19px 0px 0px 7px;
+	}
+	.line-services3 {
+		width: 315px;
+		height: 1px;
+		background-color: #343434;
+		margin: 19px 0px 0px 7px;
+	}
+	.line-services4 {
+		width: 545px;
+		height: 1px;
+		background-color: #343434;
+		margin: 19px 0px 0px 7px;
+	}
+	.line-services5 {
+		width: 595px;
+		height: 1px;
+		background-color: #343434;
+		margin: 19px 0px 0px 7px;
+	}
+	.line-services6 {
+		width: 636px;
+		height: 1px;
+		background-color: #343434;
+		margin: 19px 0px 0px 7px;
+	}
+	.line-services {
+		margin-left: 238px;
+		width: 800px;
+		height: 2px;
+	}
+}
+ 
+@media screen and (max-width: 1199px) and (orientation: landscape) {
+	
+}
+
+@media screen and (max-width: 991px) and (orientation: landscape) {
+	
+}
+
+@media screen and (max-width: 757px) and (orientation: landscape) {
+	
+}
+
+@media screen and (max-width: 575px) and (orientation: landscape) {
+	
+}
